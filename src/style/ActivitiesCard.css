@@ -1,0 +1,36 @@
+.actiCard__container {
+  width: 100%;
+  height: auto;
+  margin-right: 15px;
+}
+.actiCard__img {
+  max-height: 520px;
+  max-width: 520px;
+}
+
+.acti__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.actiCard__container > h2 {
+  margin-top: 5px;
+}
+.actiCard__container > p {
+  margin-top: 3px;
+}
+
+@media (max-width: 767px) {
+  .actiCard__img {
+    height: 270px;
+    width: 270px;
+  }
+  .actiCard__container > h2 {
+    font-size: 18px;
+    color: rgb(26, 26, 26);
+  }
+  .actiCard__container > p {
+    font-size: 14px;
+  }
+}

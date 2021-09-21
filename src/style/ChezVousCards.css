@@ -1,0 +1,31 @@
+.card__container {
+  margin-right: 20px;
+}
+
+.img__container {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.card__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  color: rgb(26, 26, 26);
+  font-weight: 600;
+}
+
+@media (max-width: 830px) {
+  .img__container {
+    height: 300px;
+    width: 300px;
+  }
+}
+/* scroll-snap-type: mandatory;
+overflow: auto hidden;
+overflow-x: scroll; */

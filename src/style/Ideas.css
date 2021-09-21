@@ -1,0 +1,8 @@
+.ideas__container {
+  padding-top: 60px;
+  height: auto;
+  width: auto;
+}
+.ideas__container > h1 {
+  margin-bottom: 12px;
+}

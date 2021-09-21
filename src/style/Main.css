@@ -1,0 +1,19 @@
+.main {
+  padding: 40px 8%;
+}
+
+@media (max-width: 1200px) {
+  .main {
+    padding: 40px 4%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    padding: 40px 0%;
+  }
+  h1 {
+    padding-left: 24px;
+    font-size: 28px;
+  }
+}

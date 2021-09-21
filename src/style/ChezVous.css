@@ -1,0 +1,32 @@
+.chezVous__container {
+  padding: 40px 0px;
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+.chezVous__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* display: flex;
+  justify-content: space-around; */
+  scroll-snap-type: x mandatory !important;
+  /* overflow-y: hidden;
+  overflow-x: scroll; */
+  overflow: auto hidden !important;
+}
+.chezVous__cards::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .chezVous__cards {
+    padding-left: 24px;
+  }
+  .chezVous__container {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+}

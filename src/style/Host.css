@@ -1,0 +1,98 @@
+.host__container {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+}
+
+.host__background {
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url("https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=1440");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  min-width: 1050px;
+}
+
+.host__content {
+  width: 550px;
+  padding: 120px 80px;
+}
+
+.host__content > h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+.host__content > p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.host__button {
+  cursor: pointer;
+  margin-top: 40px;
+  color: #201c19;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+@media (max-width: 1155px) {
+  .host__background {
+    min-width: 0px;
+  }
+  .host__content {
+    width: 420px;
+    padding: 120px 60px;
+  }
+  .host__content > h1 {
+    font-size: 38px;
+  }
+  .host__content > p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .host__container {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  .host__background {
+    background-image: url("https://a0.muscache.com/im/pictures/791aba62-2de8-4722-99b5-45838715eb34.jpg?im_q=medq&im_w=720");
+    height: 500px;
+  }
+
+  .host__content {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .host__content > h1 {
+    padding: 0;
+    font-size: 38px;
+  }
+  .host__button {
+    cursor: pointer;
+    margin-top: 20px;
+    color: #201c19;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+}

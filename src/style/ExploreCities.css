@@ -1,0 +1,42 @@
+.city__container {
+  display: grid;
+  grid-template-columns: 70px auto;
+  width: 100%;
+}
+
+img {
+  height: 65px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 16px;
+  color: rgb(34, 34, 34);
+}
+
+span {
+  color: rgb(56, 56, 56);
+  font-weight: 400;
+}
+
+.city__infos {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 10px 0px;
+}
+.hide {
+  display: none;
+}
+
+.hideMobile {
+  display: none;
+}
+
+@media (max-width: 1022px) {
+  img {
+    height: 70px;
+  }
+}

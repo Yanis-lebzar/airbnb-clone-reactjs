@@ -1,0 +1,29 @@
+.activities__container {
+  padding-top: 10px;
+  height: auto;
+  width: auto;
+}
+
+.activities__cards {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  scroll-snap-type: mandatory;
+  overflow-y: hidden;
+
+  overflow-x: scroll;
+}
+@media (max-width: 767px) {
+  .activities__container {
+    padding-top: 50px;
+    height: auto;
+    width: auto;
+  }
+  .activities__cards {
+    padding-left: 24px;
+    padding-bottom: 5px;
+  }
+}
+.activities__cards::-webkit-scrollbar {
+  display: none;
+}

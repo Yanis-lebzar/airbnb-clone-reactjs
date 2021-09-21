@@ -1,0 +1,143 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+  position: absolute;
+}
+.search__inputs {
+  height: 68px;
+  width: 100%;
+  max-width: 900px;
+  background-color: white;
+  border: none;
+  border-radius: 99px;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+}
+
+.adresse {
+  flex: 0.6;
+}
+
+.input__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs__inputContainer {
+  cursor: pointer;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 15px 10px;
+}
+strong {
+  color: rgb(75, 75, 75);
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+.inputs__inputContainer:hover {
+  border-radius: 99px;
+  background-color: rgb(216, 216, 216);
+}
+
+.one {
+  flex: 0.35;
+  padding-left: 30px;
+}
+/* .one:after {
+  content: "";
+  height: 50%;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  margin: 15px 0;
+  background-color: #cacaca;
+} */
+
+.one > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.two {
+  flex: 0.2;
+}
+
+.three {
+  flex: 0.2;
+}
+
+.four {
+  flex: 0.25;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input__text span {
+  color: rgb(99, 99, 99);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.search--icon {
+  display: flex;
+  font-size: 20px;
+  background-color: #ff385c;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  border-radius: 99px;
+  transition: 0.3s;
+}
+.search--icon:hover {
+  background-color: #bb2f48;
+}
+.search__flexible {
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.search__flexible > h3 {
+  font-size: 18px;
+  color: rgb(19, 19, 19);
+}
+.search--button {
+  padding: 18px 50px;
+  border-radius: 99px;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: rgb(219, 219, 219) 2px 2px 10px 1px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.search--button:hover {
+  box-shadow: rgb(168, 168, 168) 2px 2px 10px 1px;
+}
+
+.search--button > h4 {
+  background: linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1025px) {
+  .search {
+    padding: 150px;
+  }
+}
